@@ -8,11 +8,12 @@
     "@testing-library/user-event": "^7.1.2",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
+    "react-router-dom": "^5.2.0",
     "react-scripts": "3.4.3"
   },
   "scripts": {
     "start": "react-scripts start",
-    "start-api":"cd api && flask run --no-debugger",
+    "start-api": "cd api && fedenv/bin/flask run --no-debugger",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "test-api": "cd api && flask test",
@@ -33,5 +34,5 @@
       "last 1 safari version"
     ]
   },
-  "proxy":"http://localhost:5000/"
+  "proxy": "http://localhost:5000/"
 }
